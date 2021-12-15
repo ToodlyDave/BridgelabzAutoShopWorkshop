@@ -3,6 +3,7 @@ package com.services;
 import com.entites.Car;
 import com.entites.Ford;
 import com.entites.Sedan;
+import com.entites.Truck;
 
 public class MyOwnAutoShop {
 
@@ -16,6 +17,9 @@ public class MyOwnAutoShop {
 
 		Ford fordGold = new Ford(50, 1000, "gold", 1968, 3);
 		System.out.println(" Ford Price: " + fordGold.getSalePrice());
+		
+		Truck truck = new Truck(50, 1000, "red", 3000);
+		System.out.println(" Truck Price: " + truck.getSalePrice());
 
 		Car car = new Car(50, 1000, "black");
 		System.out.println(" Car Price: " + car.getSalePrice());
